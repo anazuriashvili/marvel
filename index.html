@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>marvel</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <img src="images/channels4_profile.jpg" class="ma">
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button light"><b>now showing</b></a>
+      <a href="#about" class="w3-bar-item w3-button light"><b>upcoming</b></a>
+      <a href="#contact" class="w3-bar-item w3-button light"><b>Contact</b></a>
+      <a href="indexgeo.html" class="circle">Geo</a>
+    </div>
+  </div>
+</div>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+</style>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="https://www.themoviedb.org/t/p/original/2UNUv4NJdC36E5myDHACBJ99EwL.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/scale.jpg" style="width:100%">
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 9000); 
+}
+</script>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">now showing</h3>
+  </div>
+  <div class="w3-row-padding">
+    <!-- ჰოვერის კონტეინერი -->
+    <div class="container">
+      <div class="content">
+        <a href="https://www.adjaranet.com/movies/878500491/Ms-Marvel?lang=ENG&quality=HD&season=1&episode=1" >
+          <div class="content-overlay"></div>
+          <img class="content-image" src="images/MV5BZmQ3OTZkNDUtNTU0Mi00ZjE4LTgyNTUtY2E4NWRmNDUxMzkyXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">MS.MARVEL</h3>
+            <p class="content-text">watch now</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- ჰოვერის კონტეინერი -->
+
+     <!-- ჰოვერის კონტეინერი -->
+     <div class="container">
+      <div class="content">
+        <a href="https://www.adjaranet.com/movies/878553710/Moon-Knight?lang=ENG&quality=HD&season=1&episode=1">
+          <div class="content-overlay"></div>
+          <img class="content-image" src="https://sportshub.cbsistatic.com/i/2022/01/18/4be0781d-8066-4a67-a7c5-4978687f05a1/moon-knight-poster.jpg?auto=webp&width=864&height=1280&crop=0.675:1,smart">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">MOON KNIGHT</h3>
+            <p class="content-text">watch now</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- ჰოვერის კონტეინერი -->
+
+    <!-- ჰოვერის კონტეინერი -->
+    <div class="container">
+      <div class="content">
+        <a href="https://www.adjaranet.com/movies/878527249/Eternals?lang=ENG&quality=HD">
+          <div class="content-overlay"></div>
+          <img class="content-image" src="https://media.comicbook.com/2021/08/marvel-eternals-final-poster-trailer-1279768.jpeg?auto=webp&width=1200&height=1778&crop=1200:1778,smart">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">ETERNALS</h3>
+            <p class="content-text">watch now</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- ჰოვერის კონტეინერი -->
+
+    <!-- ჰოვერის კონტეინერი -->
+    <div class="container">
+      <div class="content">
+        <a href="https://www.adjaranet.com/movies/21043/Thor-Ragnarok?lang=ENG&quality=HD">
+          <div class="content-overlay"></div>
+          <img class="content-image" src="https://www.themoviedb.org/t/p/original/beUKAkJE5gjjTMHYkaiE8uaZLEb.jpg">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">THOR:RAGNAROCK</h3>
+            <p class="content-text">watch now</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- ჰოვერის კონტეინერი -->
+    <!-- ჰოვერის კონტეინერი -->
+    <div class="container">
+      <div class="content">
+        <a href="https://www.adjaranet.com/movies/878498019/What-If?lang=ENG&quality=HD&season=1&episode=1">
+          <div class="content-overlay"></div>
+          <img class="content-image" src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/online_2_0.jpg">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">WHAT IF...?</h3>
+            <p class="content-text">watch now</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- ჰოვერის კონტეინერი -->
+     <!-- ჰოვერის კონტეინერი -->
+     <div class="container">
+      <div class="content">
+        <a href="https://www.adjaranet.com/movies/878444683/The-Falcon-and-the-Winter-Soldier?lang=ENG&quality=HD&season=1&episode=1">
+          <div class="content-overlay"></div>
+          <img class="content-image" src="https://m.media-amazon.com/images/M/MV5BODNiODVmYjItM2MyMC00ZWQyLTgyMGYtNzJjMmVmZTY2OTJjXkEyXkFqcGdeQXVyNzk3NDUzNTc@._V1_.jpg">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">THE FALCON AND THE WINTER SOLDIER</h3>
+            <p class="content-text">watch now</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- ჰოვერის კონტეინერი -->
+
+    <!-- <div class="w3-col l3 m6 w3-margin-bottom">
+
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Ms.MARVEL</div>
+        <img class="o6" src="images/MV5BZmQ3OTZkNDUtNTU0Mi00ZjE4LTgyNTUtY2E4NWRmNDUxMzkyXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">MOON KNIGHT</div>
+        <img src="https://sportshub.cbsistatic.com/i/2022/01/18/4be0781d-8066-4a67-a7c5-4978687f05a1/moon-knight-poster.jpg?auto=webp&width=864&height=1280&crop=0.675:1,smart" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">ETERNALS</div>
+        <img src="https://media.comicbook.com/2021/08/marvel-eternals-final-poster-trailer-1279768.jpeg?auto=webp&width=1200&height=1778&crop=1200:1778,smart" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">THOR:RAGNAROCK</div>
+        <img src="https://throughthesilverscreenuk.files.wordpress.com/2017/10/thor-ragnarok-poster.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+    -->
+  <div class="w3-row-padding">
+
+<!--     
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">WHAT IF...</div>
+        <img  src="https://media.comicbook.com/2021/07/marvel-what-if-tv-series-poster-official-disney-plus-1274908.jpeg?auto=webp&width=1280&height=1897&crop=1280:1897,smart" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">SPIDER-MAN:No Way Home</div>
+        <img src="https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_FMjpg_UX1000_.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">DOCTR STRANGE:Multiverse Of Madness</div>
+        <img src="https://www.unimado.pt/images/covers/doctor-strange-in-the-multiverse-of-madness.webp" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">THE FALCON AND THE WINTER SOLDIER</div>
+        <img src="https://m.media-amazon.com/images/M/MV5BODNiODVmYjItM2MyMC00ZWQyLTgyMGYtNzJjMmVmZTY2OTJjXkEyXkFqcGdeQXVyNzk3NDUzNTc@._V1_.jpg" alt="House" style="width:99%">
+      </div>
+    </div> -->
+  </div>
+    <!-- About Section -->
+    <div class="w3-container w3-padding-32" id="about">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Upcoming</h3>
+    <div class="container">
+      <div class="content">
+        <a href="https://www.youtube.com/watch?v=Go8nTmfrQd8&t=2s&ab_channel=MarvelEntertainment">
+          <div class="content-overlay"></div>
+          <img class="content-image" src="images/Thor_Love_and_Thunder_poster.jpeg">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">THOR:LOVE AND THUNDER</h3>
+            <p class="content-text">watch now</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="content">
+        <a href="https://www.adjaranet.com/movies/878500491/Ms-Marvel?lang=ENG&quality=HD&season=1&episode=1" >
+          <div class="content-overlay"></div>
+          <img class="content-image" src="images/MV5BZmQ3OTZkNDUtNTU0Mi00ZjE4LTgyNTUtY2E4NWRmNDUxMzkyXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">MS.MARVEL</h3>
+            <p class="content-text">watch now</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p>Lets get in touch and talk about your experience on marvel movies.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input w3-border" type="text" placeholder="Name" required name="anA">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <a href="https://github.com/anazuriashvili/marvel" i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </a>
+    </form>
+  </div>
+  
+
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>project created by Ana Zuriashvili</p>
+</footer>
+
+</body>
+</html>
